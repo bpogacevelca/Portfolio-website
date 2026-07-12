@@ -1,51 +1,29 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
+import portfolioImage from "../../public/P.png";
 ---
-
-<BaseLayout title = "Projects" sideBarActiveItemID="projects">
+<BaseLayout title="Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Projects</div>
   </div>
-
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Personal Portfolio Website"
+    class="btn bg-{EFE6DD} text-black border border-gray-300"
+    img="/P.png"
+    desc="Designed and developed a responsive personal portfolio website using Astro, HTML, CSS, JavaScript, Git, and GitHub."
+    url="https://github.com/bpogacevelca/Belina"
   />
 
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
-  </div>
+  <div class="divider my-0"></div>
 
   <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Wind Turbine Data Analysis"
+    class="btn bg-{EFE6DD} text-black border border-gray-300"
+    img="/data analysis.png"
+    desc={`Analysed wind turbine sensor data using Python to identify potential equipment failures and produced recommendations to improve maintenance planning.
+
+     This project was originally completed during Bright Network's Internship Experience UK. However, after gaining experience with Git and GitHub through the ThinkNeuro Software Engineering Practicum, so I organised the project into a GitHub repository.`}
+    url="https://github.com/bpogacevelca/wind-turbine-analysis"
   />
 </BaseLayout>

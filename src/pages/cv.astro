@@ -5,28 +5,34 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
+    <div class="text-3xl w-full font-bold">Overview</div>
   </div>
 
   <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </div>
+    I have a strong interest in neurotechnology, software engineering, child development, 
+    and cognitive neuroscience. I am particularly interested in how brain-computer interfaces,
+    machine learning, and digital technologies can advance neuroscience research, improve 
+    healthcare, and support children's cognitive development and learning.
+ </div>
+    <div class="mt-8">
+      <a class="btn bg-{EFE6DD} text-black border border-gray-300" href="/CV.pdf" target="_blank">Download CV</a>
+    </div>
 
+  <div class="mb-5 mt-10">
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Education</div>
   </div>
 
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="BSc Neuroscience"
+      subtitle="2025 - Present at Queen Mary University of London, London, UK"
+      
     />
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Alevels"
+      subtitle="2023 - 2025 at West London Free School, London, UK"
+       
     />
   </div>
 
@@ -36,23 +42,53 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Software Engineering Intern"
+      subtitle="From June 2026 to August 2026 at ThinkNeuro"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+     <ul class="list-disc pl-6 mt-4 space-y-2">
+  <li>Designed and developed a professional portfolio website using Astro, HTML, CSS, and JavaScript.</li>
+  <li>Applied version control with Git and GitHub to manage code, collaborate effectively, and track project development.</li>
+  <li>Developed responsive web pages and implemented reusable components to improve usability and maintainability.</li>
+  <li>Presented project progress and incorporated mentor feedback to improve both technical implementation and communication skills.</li>
+  <li>Strengthened skills in front-end web development, software engineering practices, problem-solving, and collaborative development.</li>
+</ul>
+<div class="my-10"></div>
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Virtual Technology & Engineering Intern"
+      subtitle="From June 15th to June 18th 2026 at Bright Network, London, "
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    <ul class="list-disc pl-6 mt-4 space-y-2">
+  <li>Completed a wind turbine data analysis project during Bright Network's Internship Experience UK.</li>
+  <li>Analysed wind turbine sensor data using Python to identify potential equipment failures.</li>
+  <li>Produced an engineering report with recommendations to improve performance and reduce costs.</li>
+  <li>Developed skills in Python, data analysis, technical reporting, and problem-solving.</li>
+</ul>
+<div class="my-10"></div>
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Sales Assistant"
+      subtitle="Artisan Bakery | From January 2026 to Present | London, Uk"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+     <ul class="list-disc pl-6 mt-4 space-y-2">
+  <li>Provided excellent customer service in a busy bakery environment.</li>
+  <li>Processed customer transactions accurately and efficiently.</li>
+  <li>Maintained product displays and ensured high presentation standards.</li>
+  <li>Worked collaboratively with colleagues during busy trading periods.</li>
+  <li>Developed skills in customer service and sales.</li>
+</ul>
+<div class="my-10"></div>
+  </TimeLineElement>
+  <TimeLineElement
+      title="Mark Evison Foundation Volunteer"
+      subtitle="From January to November 2024  London, UK"
+    >
+     <ul class="list-disc pl-6 mt-4 space-y-2">
+  <li>Awarded a Gold Certificate by the Mark Evison Foundation for contributing to a collaborative project exploring ageism and its impact on society.</li>
+  <li>Worked as part of a team to interview individuals from different age groups and produce a 20-minute documentary highlighting how age and life experiences shape perspectives.</li>
+</ul>
     </TimeLineElement>
+    
   </div>
 
   <div class="mb-5">
@@ -60,12 +96,17 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   </div>
 
   <ul class="list-disc mx-6 mb-10 grid gap-2">
-    <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
-    </li>
-    <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
-    </li>
+   <li>
+     <a href="https://www.brightnetwork.co.uk/certificates/ieuk-2026-technology-engineeri_drsym2qe41pu9n/" target="_blank">
+    Virtual Technology & Engineering Intern
+  </a>
+  </li>
+  <li>
+     <a href="https://www.markevisonfoundation.org/award/west-london-free-school-2024-2/" target="_blank">
+    Gold Certificate by Mark Evison Foundation
+  </a>
+
+   <li>UKMT Senior Maths Challenge – Silver Award</li>
   </ul>
 
   <div class="mb-5">
@@ -73,20 +114,23 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   </div>
 
   <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
+    <li>Python</li>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+    <li>Astro Framework</li>
+    <li>Git</li>
+    <li>GitHub</li>
+    <li>Web Development</li>
+    <li>Responsive Web Design</li>
+    <li>Data Analysis</li>
+    <li>Team Collaboration</li>
+    <li>Communication</li>
+    <li>Problem Solving</li>
+    <li>Time Management</li>
+    <li>Customer Service</li>
+    <li>Analytical Skills</li>
+    <li>Creative Problem Solving</li>
+    <li>Software Development</li>
   </ul>
 </BaseLayout>
