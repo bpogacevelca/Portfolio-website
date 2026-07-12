@@ -15,7 +15,7 @@ I am a BSc Neuroscience student at Queen Mary University of London, interested i
 - GitHub
 
 ## Live Website
-https://portfolio-website-bgyc0gdy4-belina.vercel.app/cv
+https://portfolio-website-bgyc0gdy4-belina.vercel.app/
 
 ## Projects
 - Personal Portfolio Website
