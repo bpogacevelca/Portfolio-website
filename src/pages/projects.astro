@@ -4,9 +4,37 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 import portfolioImage from "../../public/P.png";
 ---
 <BaseLayout title="Projects" sideBarActiveItemID="projects">
+  
+   <div>
+     <div class="text-3xl w-full font-bold mb-5">Demos</div>
+  </div>
+
+  <div class="mb-8"></div>
+ <HorizontalCard
+    title="Parkinsons Disease Detection"
+    class="btn bg-{EFE6DD} text-black border border-gray-300"
+    img="/Screenshot 2026-08-15 at 21.08.13.png"
+    desc="Interactive Streamlit demo that analyses uploaded voice recordings using a Random Forest model trained on acoustic voice features. Built as part of a ThinkNeuro AI microproject, with clear limitations around generalisation to new recording conditions."
+    url="https://parkinsons-voice-classification.streamlit.app/"
+
+  />
+  
+  <div class="mb-10"></div>
+ 
   <div>
     <div class="text-3xl w-full font-bold mb-5">Projects</div>
   </div>
+  <div class="mb-8"></div>
+  <HorizontalCard
+  title="Parkinson's Disease Voice Classification"
+  class="btn bg-[#EFE6DD] text-black border border-gray-300"
+  img="/correlation_heatmap.png"
+  desc="Developed the machine-learning pipeline for a ThinkNeuro AI microproject using Parkinson's disease and healthy-control voice recordings. Compared seven classifiers using 5-fold cross-validation, with Random Forest achieving the highest mean accuracy of 73.97% ± 5.04%."
+  url="https://github.com/bpogacevelca/machine-learning-parkinsons-voice-classification"
+/>
+  
+ <div class="divider my-0"></div>
+
   <HorizontalCard
     title="Personal Portfolio Website"
     class="btn bg-{EFE6DD} text-black border border-gray-300"
